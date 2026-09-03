@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #F9F9F9;
+    --surface: #FFFFFF;
+    --text: #2C3E50;
+    --muted: #6B7C89;
+    --accent: #D4A5A5;
+    --accent-hover: #B88B8B;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--text);
+    font-weight: 600;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom focus ring styling according to rules */
+*:focus-visible {
+  outline: 2px solid #D4A5A5;
+  outline-offset: 2px;
+}
+
+/* Clinical border utility */
+.border-clinical {
+  border: 1px solid #E0E0E0;
+}
+
+/* Hide scrollbar for clean horizontal scrolls if any */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

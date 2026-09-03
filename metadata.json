@@ -1,0 +1,6 @@
+{
+  "name": "AA Aesthetics",
+  "description": "Medical Aesthetics, Done Safely by Amy. Professional skin treatments and Botox at Marsh Wall, Canary Wharf.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
